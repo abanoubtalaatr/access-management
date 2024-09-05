@@ -1,0 +1,20 @@
+{
+    "name": "birdsol/access-management",
+    "description": "access management",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Birdsol\\AccessManagement\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abanoub-talaat",
+            "email": "105149048+abanoub-talaat@users.noreply.github.com"
+        }
+    ],
+    
+    "require": {
+
+    }
+}
