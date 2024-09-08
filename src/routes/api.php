@@ -18,7 +18,7 @@ Route::get('permissions', [\BirdSol\AccessManagement\Http\Controllers\Api\Permis
 Route::apiResource('users', \BirdSol\AccessManagement\Http\Controllers\Api\User\UserController::class);
 
 
-// Route::apiResource('roles', \BirdSol\AccessManagement\Http\Controllers\Api\Role\RoleController::class);
+Route::apiResource('roles', \BirdSol\AccessManagement\Http\Controllers\Api\Role\RoleController::class);
 Route::post('users/{user}/roles', [\BirdSol\AccessManagement\Http\Controllers\Api\User\UserRoleController::class, 'store'])->name('assign.role');
 Route::delete('users/{user}/roles', [\BirdSol\AccessManagement\Http\Controllers\Api\User\UserRoleController::class, 'destroy'])->name('remove.role');
 

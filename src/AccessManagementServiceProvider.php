@@ -17,6 +17,6 @@ class AccessManagementServiceProvider extends ServiceProvider
     {
         Route::middleware('api') // Apply global middleware (for API requests)
             ->prefix('api') // Add a prefix to the routes
-            ->group(__DIR__ . '/../routes/api.php'); // Load the routes from the package's route file
+            ->group(__DIR__ . './routes/api.php'); // Load the routes from the package's route file
     }
 }

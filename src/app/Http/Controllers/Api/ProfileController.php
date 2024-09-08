@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Api;
+namespace BirdSol\AccessManagement\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use BirdSol\AccessManagement\Http\Resources\Api\UserResource;
