@@ -14,9 +14,12 @@
 
 ### 1. Require the package via Composer
 ### 2. Ensure you set HasApiTokens trait
+### 3. Install laravel spatie permission
+
 
 ```bash
 composer require birdsol/access-management
+composer require spatie/laravel-permission
 php artisan install:api
 php artisan migrate
 
