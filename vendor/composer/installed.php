@@ -3,7 +3,7 @@
         'name' => 'birdsol/access-management',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '409e21398f27c24909dff67dacb128566c936cf1',
+        'reference' => 'ab357815ccc36cbb3dcdf5e1d63a4d101463ba8f',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'birdsol/access-management' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '409e21398f27c24909dff67dacb128566c936cf1',
+            'reference' => 'ab357815ccc36cbb3dcdf5e1d63a4d101463ba8f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
