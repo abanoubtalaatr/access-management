@@ -1,7 +1,7 @@
 {
     "name": "birdsol/access-management",
     "version": "1.1.3",
-    "description": "access management",
+    "description": "A comprehensive access management package for Laravel. This package handles user authentication, role management, user management, and invitation management. It integrates with Laravel Sanctum for authentication, Spatie Laravel Permission for role and permission management, and provides functionalities for managing user invitations.",
     "type": "library",
     "autoload": {
         "psr-4": {
