@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('invitations', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('role_id')->nullable()->constrained()->nullOnDelete();
+            $table->bigInteger('role_id')->nullable();
             $table->string('invitation_token')->nullable()->unique();
             $table->string('name');
             $table->string('email');
