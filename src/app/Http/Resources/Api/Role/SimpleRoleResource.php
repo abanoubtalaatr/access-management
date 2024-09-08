@@ -1,6 +1,6 @@
 <?php
 
-namespace BirdSol\AccessManagement\Http\Resources\Api\Role;
+namespace BirdSol\AccessManagement\App\Http\Resources\Api\Role;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;

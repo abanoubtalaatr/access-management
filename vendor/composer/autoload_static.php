@@ -20,11 +20,11 @@ class ComposerStaticInitcfeb879a47c400ebb2dc6991203a92ed
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
         '06a34129a50df3d9257ee706cf3c875b' => __DIR__ . '/..' . '/illuminate/filesystem/functions.php',
         'ef65a1626449d89d0811cf9befce46f0' => __DIR__ . '/..' . '/illuminate/events/functions.php',
+        '47e1160838b5e5a10346ac4084b58c23' => __DIR__ . '/..' . '/laravel/prompts/src/helpers.php',
+        '35a6ad97d21e794e7e22a17d806652e4' => __DIR__ . '/..' . '/nunomaduro/termwind/src/Functions.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
-        '47e1160838b5e5a10346ac4084b58c23' => __DIR__ . '/..' . '/laravel/prompts/src/helpers.php',
-        '35a6ad97d21e794e7e22a17d806652e4' => __DIR__ . '/..' . '/nunomaduro/termwind/src/Functions.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
@@ -86,6 +86,8 @@ class ComposerStaticInitcfeb879a47c400ebb2dc6991203a92ed
         'L' => 
         array (
             'Laravel\\SerializableClosure\\' => 28,
+            'Laravel\\Scout\\' => 14,
+            'Laravel\\Sanctum\\' => 16,
             'Laravel\\Prompts\\' => 16,
         ),
         'I' => 
@@ -95,6 +97,7 @@ class ComposerStaticInitcfeb879a47c400ebb2dc6991203a92ed
             'Illuminate\\Session\\' => 19,
             'Illuminate\\Queue\\' => 17,
             'Illuminate\\Pipeline\\' => 20,
+            'Illuminate\\Pagination\\' => 22,
             'Illuminate\\Http\\' => 16,
             'Illuminate\\Filesystem\\' => 22,
             'Illuminate\\Events\\' => 18,
@@ -128,7 +131,7 @@ class ComposerStaticInitcfeb879a47c400ebb2dc6991203a92ed
         'B' => 
         array (
             'Brick\\Math\\' => 11,
-            'Birdsol\\AccessManagement\\' => 25,
+            'BirdSol\\AccessManagement\\' => 25,
         ),
     );
 
@@ -278,6 +281,14 @@ class ComposerStaticInitcfeb879a47c400ebb2dc6991203a92ed
         array (
             0 => __DIR__ . '/..' . '/laravel/serializable-closure/src',
         ),
+        'Laravel\\Scout\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laravel/scout/src',
+        ),
+        'Laravel\\Sanctum\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laravel/sanctum/src',
+        ),
         'Laravel\\Prompts\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/prompts/src',
@@ -304,6 +315,10 @@ class ComposerStaticInitcfeb879a47c400ebb2dc6991203a92ed
         'Illuminate\\Pipeline\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/pipeline',
+        ),
+        'Illuminate\\Pagination\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/pagination',
         ),
         'Illuminate\\Http\\' => 
         array (
@@ -377,7 +392,7 @@ class ComposerStaticInitcfeb879a47c400ebb2dc6991203a92ed
         array (
             0 => __DIR__ . '/..' . '/brick/math/src',
         ),
-        'Birdsol\\AccessManagement\\' => 
+        'BirdSol\\AccessManagement\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

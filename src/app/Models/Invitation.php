@@ -1,9 +1,9 @@
 <?php
 
-namespace BirdSol\AccessManagement\Models;
+namespace BirdSol\AccessManagement\App\Models;
 
-use BirdSol\AccessManagement\Events\InvitationCreated;
-use BirdSol\AccessManagement\Models\Queries\InvitationQueryBuilder;
+use BirdSol\AccessManagement\App\Events\InvitationCreated;
+use BirdSol\AccessManagement\App\Models\Queries\InvitationQueryBuilder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

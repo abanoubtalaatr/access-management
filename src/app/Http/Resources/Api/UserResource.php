@@ -1,11 +1,11 @@
 <?php
 
-namespace BirdSol\AccessManagement\Http\Resources\Api;
+namespace BirdSol\AccessManagement\App\Http\Resources\Api;
 
 use Illuminate\Http\Request;
-use BirdSol\AccessManagement\Http\Resources\Api\PermissionResource;
+use BirdSol\AccessManagement\App\Http\Resources\Api\PermissionResource;
 use Illuminate\Http\Resources\Json\JsonResource;
-use BirdSol\AccessManagement\Http\Resources\Api\Role\SimpleRoleResource;
+use BirdSol\AccessManagement\App\Http\Resources\Api\Role\SimpleRoleResource;
 
 class UserResource extends JsonResource
 {

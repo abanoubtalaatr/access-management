@@ -1,13 +1,13 @@
 <?php
 
-namespace BirdSol\AccessManagement\Http\Controllers\Api\Invitation;
+namespace BirdSol\AccessManagement\App\Http\Controllers\Api\Invitation;
 
 use App\Http\Controllers\Controller;
-use BirdSol\AccessManagement\Http\Requests\Api\AcceptInvitationRequest;
-use BirdSol\AccessManagement\Http\Resources\Api\InvitationResource;
-use BirdSol\AccessManagement\Http\Responses\Api\TokenResponse;
-use BirdSol\AccessManagement\Models\Invitation;
-use BirdSol\AccessManagement\Models\User;
+use BirdSol\AccessManagement\App\Http\Requests\Api\AcceptInvitationRequest;
+use BirdSol\AccessManagement\App\Http\Resources\Api\InvitationResource;
+use BirdSol\AccessManagement\App\Http\Responses\Api\TokenResponse;
+use BirdSol\AccessManagement\App\Models\Invitation;
+use App\Models\User;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
 class AcceptInvitationController extends Controller
@@ -20,6 +20,7 @@ class AcceptInvitationController extends Controller
 
         return InvitationResource::make($invitation);
     }
+
 
     public function store(AcceptInvitationRequest $request): TokenResponse
     {

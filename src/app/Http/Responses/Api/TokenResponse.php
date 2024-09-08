@@ -1,8 +1,8 @@
 <?php
 
-namespace BirdSol\AccessManagement\Http\Responses\Api;
+namespace BirdSol\AccessManagement\App\Http\Responses\Api;
 
-use BirdSol\AccessManagement\Models\User;
+use App\Models\User;
 use Illuminate\Contracts\Support\Responsable;
 use Symfony\Component\HttpFoundation\Response;
 

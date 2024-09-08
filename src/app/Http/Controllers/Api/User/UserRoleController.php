@@ -1,12 +1,12 @@
 <?php
 
-namespace BirdSol\AccessManagement\Http\Controllers\Api\User;
+namespace BirdSol\AccessManagement\App\Http\Controllers\Api\User;
 
 use App\Http\Controllers\Controller;
-use BirdSol\AccessManagement\Http\Requests\Api\AssignRoleRequest;
-use BirdSol\AccessManagement\Http\Responses\Api\FailResponse;
-use BirdSol\AccessManagement\Http\Responses\Api\SuccessResponse;
-use BirdSol\AccessManagement\Models\User;
+use BirdSol\AccessManagement\App\Http\Requests\Api\AssignRoleRequest;
+use BirdSol\AccessManagement\App\Http\Responses\Api\FailResponse;
+use BirdSol\AccessManagement\App\Http\Responses\Api\SuccessResponse;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Spatie\Permission\Models\Role;
 

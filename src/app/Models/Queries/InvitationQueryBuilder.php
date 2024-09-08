@@ -1,6 +1,6 @@
 <?php
 
-namespace BirdSol\AccessManagement\Models\Queries;
+namespace BirdSol\AccessManagement\App\Models\Queries;
 
 use App\Traits\ScoutSearchable;
 use Illuminate\Database\Eloquent\Builder;

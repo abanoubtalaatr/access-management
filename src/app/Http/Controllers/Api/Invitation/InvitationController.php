@@ -1,14 +1,14 @@
 <?php
 
-namespace BirdSol\AccessManagement\Http\Controllers\Api\Invitation;
+namespace BirdSol\AccessManagement\App\Http\Controllers\Api\Invitation;
 
 use App\Http\Controllers\Controller;
-use BirdSol\AccessManagement\Http\Queries\RequestQueryBuilder;
-use BirdSol\AccessManagement\Http\Requests\Api\InvitationRequest;
-use BirdSol\AccessManagement\Http\Requests\Api\UpdateInvitationRequest;
-use BirdSol\AccessManagement\Http\Resources\Api\InvitationResource;
-use BirdSol\AccessManagement\Http\Responses\Api\SuccessResponse;
-use BirdSol\AccessManagement\Models\Invitation;
+use BirdSol\AccessManagement\App\Http\Queries\RequestQueryBuilder;
+use BirdSol\AccessManagement\App\Http\Requests\Api\InvitationRequest;
+use BirdSol\AccessManagement\App\Http\Requests\Api\UpdateInvitationRequest;
+use BirdSol\AccessManagement\App\Http\Resources\Api\InvitationResource;
+use BirdSol\AccessManagement\App\Http\Responses\Api\SuccessResponse;
+use BirdSol\AccessManagement\App\Models\Invitation;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;

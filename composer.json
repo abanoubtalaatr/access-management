@@ -16,6 +16,13 @@
     ],
     
     "require": {
+        "laravel/sanctum": "^4.0",
+        "laravel/scout": "^10.10",
         "spatie/laravel-permission": "^6.9"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan vendor:publish --provider=\"BirdSol\\AccessManagement\\AccessManagementServiceProvider\""
+        ]
     }
 }

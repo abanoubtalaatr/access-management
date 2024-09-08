@@ -1,8 +1,8 @@
 <?php
 
-namespace BirdSol\AccessManagement\Events;
+namespace BirdSol\AccessManagement\App\Events;
 
-use BirdSol\AccessManagement\Models\Invitation;
+use BirdSol\AccessManagement\App\Models\Invitation;
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;

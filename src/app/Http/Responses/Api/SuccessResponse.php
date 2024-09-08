@@ -1,6 +1,6 @@
 <?php
 
-namespace BirdSol\AccessManagement\Http\Responses\Api;
+namespace BirdSol\AccessManagement\App\Http\Responses\Api;
 
 use Illuminate\Contracts\Support\Responsable;
 use Symfony\Component\HttpFoundation\Response;

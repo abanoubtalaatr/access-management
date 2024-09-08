@@ -1,6 +1,6 @@
 <?php
 
-namespace BirdSol\AccessManagement\Http\Queries;
+namespace BirdSol\AccessManagement\App\Http\Queries;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\Request;

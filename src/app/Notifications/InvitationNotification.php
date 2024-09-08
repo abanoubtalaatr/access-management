@@ -2,7 +2,7 @@
 
 namespace BirdSol\AccessManagement\Notifications;
 
-use BirdSol\AccessManagement\Models\Invitation;
+use BirdSol\AccessManagement\App\Models\Invitation;
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;

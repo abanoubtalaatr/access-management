@@ -1,6 +1,6 @@
 <?php
 
-namespace BirdSol\AccessManagement\Http\Requests\Api;
+namespace BirdSol\AccessManagement\App\Http\Requests\Api;
 
 use Illuminate\Foundation\Http\FormRequest;
 
