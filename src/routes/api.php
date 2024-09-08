@@ -24,5 +24,5 @@ Route::delete('users/{user}/roles', [\BirdSol\AccessManagement\Http\Controllers\
 
 
 Route::apiResource('invitations', \BirdSol\AccessManagement\Http\Controllers\Api\Invitation\InvitationController::class);
-Route::get('accept-invitation/{invitation:invitation_token}', [\BirdSol\AccessManagement\Http\Controllers\Api\Invitation\AcceptInvitationController::class, 'show'])->name('api.accept-invitation.show');
+// Route::get('accept-invitation/{invitation:invitation_token}', [\BirdSol\AccessManagement\Http\Controllers\Api\Invitation\AcceptInvitationController::class, 'show'])->name('api.accept-invitation.show');
 // Route::post('invitations/{invitation}/resend', \BirdSol\AccessManagement\Http\Controllers\Api\Invitation\ResendInvitationController::class)->middleware('throttle:10,1')->name('api.invitations.resend');
