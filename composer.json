@@ -5,7 +5,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Birdsol\\AccessManagement\\": "src/"
+            "BirdSol\\AccessManagement\\": "src/"
         }
     },
     "authors": [
