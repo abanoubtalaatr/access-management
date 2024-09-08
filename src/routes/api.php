@@ -13,6 +13,7 @@ Route::post('accept-invitation', [\BirdSol\AccessManagement\Http\Controllers\Api
 |--------------------------------------------------------------------------
 */
 
+
 Route::get('permissions', [\BirdSol\AccessManagement\Http\Controllers\Api\Permission\PermissionController::class, 'index']);
 Route::apiResource('users', \BirdSol\AccessManagement\Http\Controllers\Api\User\UserController::class);
 
