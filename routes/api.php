@@ -1,9 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\ProfileController;
+
+Route::middleware(['auth:sanctum'])->get('/user', [ProfileController::class, 'show']);
 
 Route::middleware('auth:api')->group(function () {
-    Route::get('test-route-from-access-management', function(){
-        return response()->json(['message' => 'Test from access management route']);
-    });
+    Route::post('accept-invitation', [\BirdSol\AccessManagement\Http\Controllers\Api\Invitation\AcceptInvitationController::class, 'store'])->name('api.accept-invitation.store');
+
 });
