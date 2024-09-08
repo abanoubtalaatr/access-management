@@ -24,5 +24,6 @@
         "post-install-cmd": [
             "php artisan vendor:publish --provider=\"BirdSol\\AccessManagement\\AccessManagementServiceProvider\""
         ]
-    }
+    },
+    "license": "MIT"
 }
