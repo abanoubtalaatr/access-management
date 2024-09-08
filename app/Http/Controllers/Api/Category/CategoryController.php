@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Http\Controllers\Api\Category;
+namespace BirdSol\AccessManagement\Http\Controllers\Api\Category;
 
 use App\Http\Controllers\Controller;
-use App\Http\Queries\RequestQueryBuilder;
-use App\Http\Requests\Api\CategoryRequest;
-use App\Http\Resources\Api\CategoryResource;
-use App\Http\Responses\Api\SuccessResponse;
-use App\Models\Category;
+use BirdSol\AccessManagement\Http\Queries\RequestQueryBuilder;
+use BirdSol\AccessManagement\Http\Requests\Api\CategoryRequest;
+use BirdSol\AccessManagement\Http\Resources\Api\CategoryResource;
+use BirdSol\AccessManagement\Http\Responses\Api\SuccessResponse;
+use BirdSol\AccessManagement\Models\Category;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;

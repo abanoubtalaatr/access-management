@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Api\Role;
+namespace BirdSol\AccessManagement\Http\Controllers\Api\Role;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Api\RoleRequest;
-use App\Http\Resources\Api\RoleResource;
-use App\Http\Responses\Api\SuccessResponse;
+use BirdSol\AccessManagement\Http\Requests\Api\RoleRequest;
+use BirdSol\AccessManagement\Http\Resources\Api\RoleResource;
+use BirdSol\AccessManagement\Http\Responses\Api\SuccessResponse;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;

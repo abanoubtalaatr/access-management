@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Http\Controllers\Api\Client;
+namespace BirdSol\AccessManagement\Http\Controllers\Api\Client;
 
 use App\Http\Controllers\Controller;
-use App\Http\Queries\RequestQueryBuilder;
-use App\Http\Requests\Api\StoreClientRequest;
-use App\Http\Requests\Api\UpdateClientRequest;
-use App\Http\Resources\ClientResource;
-use App\Http\Responses\Api\SuccessResponse;
-use App\Models\Client;
+use BirdSol\AccessManagement\Http\Queries\RequestQueryBuilder;
+use BirdSol\AccessManagement\Http\Requests\Api\StoreClientRequest;
+use BirdSol\AccessManagement\Http\Requests\Api\UpdateClientRequest;
+use BirdSol\AccessManagement\Http\Resources\ClientResource;
+use BirdSol\AccessManagement\Http\Responses\Api\SuccessResponse;
+use BirdSol\AccessManagement\Models\Client;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;

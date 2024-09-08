@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers\Api\Client;
+namespace BirdSol\AccessManagement\Http\Controllers\Api\Client;
 
 use App\Http\Controllers\Controller;
-use App\Models\SalesOrder;
+use BirdSol\AccessManagement\Models\SalesOrder;
 use Illuminate\Http\Request;
 
 class SummarySalesOrderController extends Controller

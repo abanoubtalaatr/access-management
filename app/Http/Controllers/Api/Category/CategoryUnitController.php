@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Api\Category;
+namespace BirdSol\AccessManagement\Http\Controllers\Api\Category;
 
 use App\Http\Controllers\Controller;
-use App\Http\Resources\Api\UnitResource;
-use App\Models\Category;
+use BirdSol\AccessManagement\Http\Resources\Api\UnitResource;
+use BirdSol\AccessManagement\Models\Category;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 
 class CategoryUnitController extends Controller

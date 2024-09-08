@@ -1,15 +1,15 @@
 <?php
 
-namespace App\Http\Controllers\Api\Contract;
+namespace BirdSol\AccessManagement\Http\Controllers\Api\Contract;
 
 use App\Models\Product;
-use App\Models\Contract;
+use BirdSol\AccessManagement\Models\Contract;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
-use App\Http\Queries\RequestQueryBuilder;
-use App\Http\Requests\Api\ContractRequest;
-use App\Http\Responses\Api\SuccessResponse;
-use App\Http\Resources\Api\ContractResource;
+use BirdSol\AccessManagement\Http\Controllers\Controller;
+use BirdSol\AccessManagement\Http\Queries\RequestQueryBuilder;
+use BirdSol\AccessManagement\Http\Requests\Api\ContractRequest;
+use BirdSol\AccessManagement\Http\Responses\Api\SuccessResponse;
+use BirdSol\AccessManagement\Http\Resources\Api\ContractResource;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 

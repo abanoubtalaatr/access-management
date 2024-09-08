@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Api\Invitation;
+namespace BirdSol\AccessManagement\Http\Controllers\Api\Invitation;
 
 use App\Http\Controllers\Controller;
-use App\Http\Responses\Api\SuccessResponse;
-use App\Models\Invitation;
-use App\Notifications\InvitationNotification;
+use BirdSol\AccessManagement\Http\Responses\Api\SuccessResponse;
+use BirdSol\AccessManagement\Models\Invitation;
+use BirdSol\AccessManagement\Notifications\InvitationNotification;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
 

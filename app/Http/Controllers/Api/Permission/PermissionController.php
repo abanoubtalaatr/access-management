@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers\Api\Permission;
+namespace BirdSol\AccessManagement\Http\Controllers\Api\Permission;
 
 use App\Http\Controllers\Controller;
-use App\Http\Resources\Api\PermissionResource;
+use BirdSol\AccessManagement\Http\Resources\Api\PermissionResource;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use Spatie\Permission\Models\Permission;
 

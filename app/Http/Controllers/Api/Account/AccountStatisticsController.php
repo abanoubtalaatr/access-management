@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Api\Account;
+namespace BirdSol\AccessManagement\Http\Controllers\Api\Account;
 
 use App\Http\Controllers\Controller;
-use App\Models\Account;
-use App\Models\Client;
-use App\Models\Supplier;
+use BirdSol\AccessManagement\Models\Account;
+use BirdSol\AccessManagement\Models\Client;
+use BirdSol\AccessManagement\Models\Supplier;
 use Illuminate\Http\Request;
 
 class AccountStatisticsController extends Controller

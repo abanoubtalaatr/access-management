@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Notifications;
+namespace BirdSol\AccessManagement\Notifications;
 
-use App\Models\Invitation;
+use BirdSol\AccessManagement\Models\Invitation;
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;

@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Http\Controllers\Api\Account;
+namespace BirdSol\AccessManagement\Http\Controllers\Api\Account;
 
 use App\Http\Controllers\Controller;
-use App\Models\Account;
-use App\Models\ExpenseTransaction;
-use App\Models\IncomeTransaction;
-use App\Models\PurchaseOrderTransaction;
-use App\Models\SalesTransaction;
+use BirdSol\AccessManagement\Models\Account;
+use BirdSol\AccessManagement\Models\ExpenseTransaction;
+use BirdSol\AccessManagement\Models\IncomeTransaction;
+use BirdSol\AccessManagement\Models\PurchaseOrderTransaction;
+use BirdSol\AccessManagement\Models\SalesTransaction;
 use Illuminate\Http\Request;
 
 class CreditDebitController extends Controller

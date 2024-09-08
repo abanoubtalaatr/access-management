@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Http\Controllers\Api\Contact;
+namespace BirdSol\AccessManagement\Http\Controllers\Api\Contact;
 
 use App\Http\Controllers\Controller;
-use App\Models\Contact;
-use App\Models\Product;
-use App\Models\PurchaseOrder;
-use App\Models\PurchaseOrderTransaction;
-use App\Models\Supplier;
+use BirdSol\AccessManagement\Models\Contact;
+use BirdSol\AccessManagement\Models\Product;
+use BirdSol\AccessManagement\Models\PurchaseOrder;
+use BirdSol\AccessManagement\Models\PurchaseOrderTransaction;
+use BirdSol\AccessManagement\Models\Supplier;
 use Illuminate\Http\Request;
 
 class ContactStatisticsController extends Controller

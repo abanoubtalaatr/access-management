@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Http\Controllers\Api\Account;
+namespace BirdSol\AccessManagement\Http\Controllers\Api\Account;
 
 use App\Http\Controllers\Controller;
-use App\Http\Queries\RequestQueryBuilder;
-use App\Http\Requests\Api\AccountRequest;
-use App\Http\Resources\Api\AccountResource;
-use App\Http\Responses\Api\SuccessResponse;
-use App\Models\Account;
+use BirdSol\AccessManagement\Http\Queries\RequestQueryBuilder;
+use BirdSol\AccessManagement\Http\Requests\Api\AccountRequest;
+use BirdSol\AccessManagement\Http\Resources\Api\AccountResource;
+use BirdSol\AccessManagement\Http\Responses\Api\SuccessResponse;
+use BirdSol\AccessManagement\Models\Account;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 

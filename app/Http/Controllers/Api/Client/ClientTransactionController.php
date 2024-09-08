@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Api\Client;
+namespace BirdSol\AccessManagement\Http\Controllers\Api\Client;
 
 use App\Http\Controllers\Controller;
-use App\Http\Resources\Api\SalesTransactionResource;
-use App\Models\Client;
+use BirdSol\AccessManagement\Http\Resources\Api\SalesTransactionResource;
+use BirdSol\AccessManagement\Models\Client;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 
