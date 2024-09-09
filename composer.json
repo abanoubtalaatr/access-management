@@ -22,7 +22,8 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "php artisan vendor:publish --provider=\"BirdSol\\AccessManagement\\AccessManagementServiceProvider\""
+            "php artisan vendor:publish --provider=\"BirdSol\\AccessManagement\\AccessManagementServiceProvider\"",
+            "php artisan access-management:append-provider"
         ]
     },
     "license": "MIT"
